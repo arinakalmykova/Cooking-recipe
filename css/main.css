@@ -15,19 +15,21 @@ body {
 
 
 header {
-    text-align: center;
+   margin-top: 50px;  
+  margin-left: auto;
+  margin-right: auto;
     margin-bottom: 20px;
-    width: 100%;
-	height: 55px;
+ width: 30%;
+	 height: 55px;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     border-radius: 20px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     background-color: rgb(241, 250, 220); 
-    height: 400px;
+    height: 350px;
 }
 
 .about{
@@ -35,58 +37,59 @@ header {
 }
 
 .about_info h2{
-    color: #181313;
+    color: #323232;
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-top: -5px;
+    text-align:justify;
   }
   
 .about_info p {
-    color: #181717;
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 48px;
-    font-style: italic;
+    color: #323232;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align:justify;
   }
   
 .text_about p{
-      color: #201209;
+      color:  #323232;
       font-size: 2px;
       font-weight: 200;
       text-align: center;
   }
 
   .wrapper{
-    margin-left: 350px;
-    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
     display:flex;
     text-align:center;
-    gap:20px;
+    gap:30px;
   }
   
   .wrapper-item{
     font-family: 'IBM Plex Serif', Serif;
     background-color: #8fe05dec;
-    width: 317px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     border-radius: 17px;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 40px;
     text-align: center;
-    padding-top: 15px;
+    padding: 20px;
   }
   
   .item-img {
-    border-radius: 18px;
     margin-top: 5px;
+    width: 35%;
   }
 
   .item-info{
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 8px;
-    font-style: italic;
-
+    color:  #3e8e41;
   }
   
   .item-btn{
@@ -107,9 +110,11 @@ header {
   }
 
 .footer{
-    max-width: 860px;
+  max-width: 1000px;
     border-radius: 20px;
-    margin: 0 auto;
+    margin-top: 40px;  
+    margin-left: auto;
+    margin-right: auto;
     padding: 40px;
     background-color: rgb(241, 250, 220); 
     font-family: 'IBM Plex Serif', Serif;
@@ -118,20 +123,22 @@ header {
     
 .footer .row{
     width:100%;
-    margin:1% 0%;
+    margin-left: auto;
+    margin-right: auto;
     padding:0.6% 0%;
-    color:gray;
+    color:grey;
     font-size:0.8em;
     }
     
 .footer .row a{
     text-decoration:none;
-    color:gray;
+    color:grey;
     transition:0.5s;
     }
     
 .footer .row a:hover{
-    color:#fff;
+    color: #3e8e41;
+
     }
     
 .footer .row ul{
